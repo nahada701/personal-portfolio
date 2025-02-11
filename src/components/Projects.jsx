@@ -1,6 +1,6 @@
 import React from 'react'
 import budgetbuddy from '../assets/budgetBuddy.png'
-import eatzzy from '../assets/eatzzy.png'
+import eatzzy from '../assets/Eatzzy.png'
 import skycast from '../assets/skycast.png'
 import goldenMelano from '../assets/goldenMelano.png'
 import porsche from '../assets/porscheClone.png'
