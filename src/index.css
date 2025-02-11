@@ -1,0 +1,80 @@
+*{
+  color: white;
+  padding: 0;
+  margin: 0;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.navlink{
+  text-decoration: none;
+  color: white;
+  font-size: 11px !important;
+}
+.navlink:hover{
+  color: rgb(107, 214, 0) !important;
+}
+
+.resume{
+color: white;
+text-decoration: none;
+border-radius: 15px;
+padding: 5px;
+border:2px white solid; 
+}
+.resume:hover{
+  color: rgb(107, 214, 0) !important;
+  padding: 6px;
+border:2px rgb(107, 214, 0) solid; 
+
+
+}
+.arrow-btn{
+  border:2px white solid !important; 
+  border-radius: 50%;
+  width: 140px;
+  background-color: transparent;
+  height: 140px;
+  &:hover{
+    border:2px rgb(107, 214, 0) solid!important; 
+    color: rgb(107, 214, 0);
+  }
+}
+.arrow-btn i{
+font-size: 40px;
+}
+.home1{
+  border-bottom: 2px white solid;
+}
+.links{
+text-decoration: none;
+color: white;
+}
+.links:hover{
+  color:rgb(107, 214, 0) ;
+}
+.project-card-img{
+  width: 100%;
+  height: 200px;
+  border-radius: 20px;
+  transition: transform 0.3s ease-in-out;
+  &:hover{
+    transform: scale(1.02);
+  }
+}
+.project-img{
+  width: 100%;
+  height: 360px;
+  border-radius: 20px;
+  transition: transform 0.3s ease-in-out;
+  &:hover{
+    transform: scale(1.02);
+  }
+}
+
+@media (max-width:1010px) {
+  .remove-arrow{
+   display: none !important;
+  }
+  
+}
