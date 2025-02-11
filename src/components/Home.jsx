@@ -2,9 +2,8 @@ import React from 'react'
 import bgvideo from "../assets/background.mp4";
 import resume from '../assets/MyResume.pdf'
 import budgetbuddy from '../assets/budgetBuddy.png'
-import eatzzy from '../assets/eatzzy.png'
+import eatzzy from '../assets/Eatzzy.png'
 import skycast from '../assets/skycast.png'
-import goldenMelano from '../assets/goldenMelano.png'
 import { Link } from 'react-router-dom';
 
 
