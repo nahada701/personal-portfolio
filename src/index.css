@@ -71,6 +71,11 @@ color: white;
     transform: scale(1.02);
   }
 }
+@media(max-width:998px) {
+  .project-img{
+    height: 200px;;
+  }
+}
 
 @media (max-width:1010px) {
   .remove-arrow{

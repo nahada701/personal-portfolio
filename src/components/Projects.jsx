@@ -6,6 +6,14 @@ import goldenMelano from '../assets/goldenMelano.png'
 import porsche from '../assets/porscheClone.png'
 import Microsoft from '../assets/microsoftClone.png'
 import Triivana from '../assets/Triivana.png'
+import noteflow from '../assets/noteflow.png'
+import westsideClone from '../assets/westsideClone.png'
+import littleFashion from '../assets/littleFashion.png'
+import adobeClone from '../assets/adobeClone.png'
+import snakegame from '../assets/snakegame.png'
+
+
+
 
 
 
@@ -89,30 +97,88 @@ function Projects() {
     </div>
   
     <div className="col-md-8 mb-5 mb-5">
-     <a href=''> <img src={porsche} className='project-img' alt="" /></a>
+     <a href='https://porsche-clone-kappa.vercel.app/'> <img src={porsche} className='project-img' alt="" /></a>
       <div className='d-flex  my-3 justify-content-between align-items-center flex-wrap '>
         <h4 className=''>
         Porsche Clone
         </h4>
         <p className='m-0 p-0'>Aug 2024</p>
-        <p className='m-0 p-0'>Customer Engagement / Form Integration / HTML & CSS</p>
+        <p className='m-0 p-0'> UI Development / Flexbox & Grid / Smooth UX</p>
       </div>
   
     </div>
     <div className="col-md-8 mb-5 mb-5">
-     <a href=''> <img src={Microsoft} className='project-img' alt="" /></a>
+     <a href=' https://noteflow-app.vercel.app/'> <img src={noteflow} className='project-img' alt="" /></a>
+      <div className='d-flex  my-3 justify-content-between align-items-center flex-wrap '>
+        <h4 className=''>
+        Note flow
+        </h4>
+        <p className='m-0 p-0'>Aug 2024</p>
+        <p className='m-0 p-0'>Notes Management /HTML CSS JS /  Simple UI </p>
+      </div>
+  
+    </div>
+    <div className="col-md-8 mb-5 mb-5">
+     <a href='https://microsoft-clone-ecru.vercel.app/'> <img src={Microsoft} className='project-img' alt="" /></a>
       <div className='d-flex  my-3 justify-content-between align-items-center flex-wrap '>
         <h4 className=''>
         Microsoft Clone
         </h4>
         <p className='m-0 p-0'>Aug 2024</p>
-        <p className='m-0 p-0'>Customer Engagement / Form Integration / HTML & CSS</p>
+        <p className='m-0 p-0'>Website Cloning / HTML & CSS / Responsive Design</p>
+      </div>
+  
+    </div>
+
+  
+    <div className="col-md-8 mb-5 mb-5">
+     <a href=' https://westside-clone-wpay.vercel.app/'> <img src={westsideClone} className='project-img' alt="" /></a>
+      <div className='d-flex  my-3 justify-content-between align-items-center flex-wrap '>
+        <h4 className=''>
+        Westside Clone
+        </h4>
+        <p className='m-0 p-0'>Sep 2024</p>
+        <p className='m-0 p-0'> E-Commerce UI / HTML & CSS / Responsive Design</p>
+      </div>
+  
+    </div>
+    <div className="col-md-8 mb-5 mb-5">
+     <a href=' https://adobe-clone-two.vercel.app/'> <img src={adobeClone} className='project-img' alt="" /></a>
+      <div className='d-flex  my-3 justify-content-between align-items-center flex-wrap '>
+        <h4 className=''>
+        Adobe Clone
+        </h4>
+        <p className='m-0 p-0'>Oct 2024</p>
+        <p className='m-0 p-0'> Clone website / HTML & CSS / Static page</p>
+      </div>
+  
+    </div>
+  
+    <div className="col-md-8 mb-5 mb-5">
+     <a href=' https://fashion-store-one-alpha.vercel.app/'> <img src={littleFashion} className='project-img' alt="" /></a>
+      <div className='d-flex  my-3 justify-content-between align-items-center flex-wrap '>
+        <h4 className=''>
+        Little Fashion
+        </h4>
+        <p className='m-0 p-0'>Sep 2024</p>
+        <p className='m-0 p-0'> E-Commerce UI / HTML & CSS / Responsive Design</p>
+      </div>
+  
+    </div>
+        <div className="col-md-8 mb-5 mb-5">
+     <a href='https://snake-game-flax-chi.vercel.app/'> <img src={snakegame} className='project-img' alt="" /></a>
+      <div className='d-flex  my-3 justify-content-between align-items-center flex-wrap '>
+        <h4 className=''>
+          Snake Game
+        </h4>
+        <p className='m-0 p-0'>Aug 2024</p>
+        <p className='m-0 p-0'>Simple Game / JavaScript / Canvas Design</p> 
       </div>
   
     </div>
   
     
-  
+   
     
   
   </div>
