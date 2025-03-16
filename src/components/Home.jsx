@@ -1,10 +1,12 @@
 import React from 'react'
 import bgvideo from "../assets/background.mp4";
-import resume from '../assets/MyResume.pdf'
+import resume from '../assets/nahada_chulliyil_resume.pdf'
 import budgetbuddy from '../assets/budgetBuddy.png'
 import eatzzy from '../assets/Eatzzy.png'
 import skycast from '../assets/skycast.png'
 import { Link } from 'react-router-dom';
+import Triivana from '../assets/Triivana.png'
+
 
 
 function Home() {
@@ -85,19 +87,24 @@ Here are some select projects that showcase my passion for creating user-friendl
             </div>
 
             <div className="cards my-5 container">
-    <div className="row">
-        {[ 
-            { img: budgetbuddy, name: "BudgetBuddy", tags: "Finance Management / UI Design / Web App" },
-            { img: eatzzy, name: "Eatzzy", tags: "Food Delivery / REST APIs / Redux" },
-            { img: skycast, name: "SkyCast", tags: "Weather Forecast / API Integration / JavaScript" }
-        ].map((project, index) => (
-            <div key={index} className="col-md-6 col-lg-4 mb-4">
-               <div className='d-flex justify-content-center'> <img src={project.img} className='project-card-img' alt={`${project.name} App Screenshot`} /></div>
-                <h6 className='text-center mt-3'>{project.name}</h6>
-                <p className='text-center text-muted small'>{project.tags}</p>
+            <div className="row">
+    {[
+        { img: Triivana, name: "Triivana", tags: "Hotel Booking / Full-Stack Development / MERN", link: "https://triivana.vercel.app/" },
+        { img: budgetbuddy, name: "BudgetBuddy", tags: "Finance Management / UI Design / Web App", link: "https://budget-buddy-aa9l.vercel.app/" },
+        { img: eatzzy, name: "Eatzzy", tags: "Food Delivery / REST APIs / Redux", link: "https://eatzzy.vercel.app/" }
+    ].map((project, index) => (
+        <div key={index} className="col-md-6 col-lg-4 mb-4">
+            <div className='d-flex justify-content-center'>
+                <a href={project.link} target="_blank" rel="noopener noreferrer">
+                    <img src={project.img} className='project-card-img' alt={`${project.name} App Screenshot`} />
+                </a>
             </div>
-        ))}
-    </div>
+            <h6 className='text-center mt-3'>{project.name}</h6>
+            <p className='text-center text-muted small'>{project.tags}</p>
+        </div>
+    ))}
+</div>
+
 </div>
 
         </div>

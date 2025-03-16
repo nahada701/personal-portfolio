@@ -37,12 +37,12 @@ function Projects() {
   <div className="row  d-flex align-items-center flex-column">
   
   <div className="col-md-8 mb-5 mb-5">
-     <a href=''> <img src={Triivana} className='project-img' alt="" /></a>
+     <a href='https://triivana.vercel.app/'> <img src={Triivana} className='project-img' alt="" /></a>
       <div className='d-flex  my-3 justify-content-between align-items-center flex-wrap '>
         <h4 className=''>
         Triivana
         </h4>
-        <p className='m-0 p-0'>Ongoing</p>
+        <p className='m-0 p-0'>Feb-2025</p>
         <p className='m-0 p-0'> Hotel Booking / Full-Stack Development / MERN</p>
       </div>
   
