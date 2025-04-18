@@ -31,7 +31,7 @@ function Home() {
              </div>
              <div className='d-flex justify-content-center ' style={{marginTop:"50px"}}>
                 <a href="">
-             <button className=' arrow-btn remove-arrow'><i className='fa-solid fa-arrow-down'></i></button>
+             <a href="#about" className=' arrow-btn p-5 remove-arrow'><i className='fa-solid fa-arrow-down'></i></a>
 
                 </a>
 
