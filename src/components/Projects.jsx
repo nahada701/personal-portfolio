@@ -125,7 +125,7 @@ function Projects() {
   
     </div>
     <div className="col-md-8 mb-5 mb-5">
-     <a href='https://kanban-board-henna-alpha.vercel.app/'> <img src={RandomPassword} className='project-img' alt="" /></a>
+     <a href='https://password-generator-beta-seven-99.vercel.app/'> <img src={RandomPassword} className='project-img' alt="" /></a>
       <div className='d-flex  my-3 justify-content-between align-items-center flex-wrap '>
         <h4 className=''>
         Password Generator  
