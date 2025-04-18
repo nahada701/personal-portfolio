@@ -16,7 +16,7 @@ function Home() {
         <div className=''>
             <div style={{position:"absolute",top:"140px",width:"100%"}}>
              <div className='d-flex justify-content-between' style={{position:"relative"}}>
-                    <span className='ms-3 ' >Scroll <i class="fa-solid fa-arrow-down fa-xl" ></i></span>
+                    <a className='ms-3  ' href='#about' style={{color:"white",textDecoration:"none"}} >Scroll <i class="fa-solid fa-arrow-down fa-xl" ></i></a>
                     <a href={resume}   download="Nahada_Resume.pdf" className='resume me-3'>Download my resume</a>
              </div>
              <div className='row  '>
@@ -49,21 +49,23 @@ function Home() {
 
         </div>
         {/* about */}
-        <div className='container' >
-            <div className='row mt-5 py-5'>
-                <div className="col-md-6 d-flex justify-content-center">
-                <p>Hello, my name's Nahada. I'm a full-stack developer specialized in MERN, with a focus on creating dynamic and responsive websites. I have experience in both frontend and backend development, building seamless and efficient web applications.</p>
+       <section id='about'>
+            <div className='container' >
+                <div className='row mt-5 py-5'>
+                    <div className="col-md-6 d-flex justify-content-center">
+                    <p>Hello, my name's Nahada. I'm a full-stack developer specialized in MERN, with a focus on creating dynamic and responsive websites. I have experience in both frontend and backend development, building seamless and efficient web applications.</p>
+                    </div>
+                    <div className="col-md-6 d-flex justify-content-center">
+                    <Link to={'/about'}>
+                 <button className=' arrow-btn'>learn more</button>
+    
+                    </Link>
+                    </div>
+                 
                 </div>
-                <div className="col-md-6 d-flex justify-content-center">
-                <Link to={'/about'}>
-             <button className=' arrow-btn'>learn more</button>
-
-                </Link>
-                </div>
-             
+               
             </div>
-           
-        </div>
+       </section>
         {/* projects */}
         <div>
             <h6 className='text-center my-5 pt-5 '> PROJECTS</h6>

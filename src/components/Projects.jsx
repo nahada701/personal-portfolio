@@ -12,7 +12,13 @@ import littleFashion from '../assets/littleFashion.png'
 import adobeClone from '../assets/adobeClone.png'
 import snakegame from '../assets/snakegame.png'
 
+import Cookpedia  from '../assets/Cookpedia.png'
+import KanbanBoard  from '../assets/KanabanBoard.png'
+import RandomPassword  from '../assets/RadomPassword.png'
 
+
+import ObjPrediction from '../assets/ObjPrediction.png'
+import ProjectFair from '../assets/ProjectFair.png'
 
 
 
@@ -44,6 +50,29 @@ function Projects() {
         </h4>
         <p className='m-0 p-0'>Feb-2025</p>
         <p className='m-0 p-0'> Hotel Booking / Full-Stack Development / MERN</p>
+      </div>
+  
+    </div>
+
+    <div className="col-md-8 mb-5 mb-5">
+     <a href='https://project-fair-azure-kappa.vercel.app/'> <img src={ProjectFair} className='project-img' alt="" /></a>
+      <div className='d-flex  my-3 justify-content-between align-items-center flex-wrap '>
+        <h4 className=''>
+        Project Fair
+        </h4>
+        <p className='m-0 p-0'>Dec-2024</p>
+        <p className='m-0 p-0'> Project Management / Full-Stack Development / MERN</p>
+      </div>
+  
+    </div>
+    <div className="col-md-8 mb-5 mb-5">
+     <a href='https://cookpedia-two.vercel.app/'> <img src={Cookpedia} className='project-img' alt="" /></a>
+      <div className='d-flex  my-3 justify-content-between align-items-center flex-wrap  '>
+        <h4 className=''>
+          Cookpedia
+        </h4>
+        <p className='m-0 p-0'>Feb 2025</p>
+        <p className='m-0 p-0'>Recipe Management / Angular / MEAN </p>
       </div>
   
     </div>
@@ -85,6 +114,40 @@ function Projects() {
     </div>
   
     <div className="col-md-8 mb-5 mb-5">
+     <a href='https://kanban-board-henna-alpha.vercel.app/'> <img src={KanbanBoard} className='project-img' alt="" /></a>
+      <div className='d-flex  my-3 justify-content-between align-items-center flex-wrap '>
+        <h4 className=''>
+        Kanban 
+        </h4>
+        <p className='m-0 p-0'>March 2025</p>
+        <p className='m-0 p-0'>Task Management / Simple UI / React</p>
+      </div>
+  
+    </div>
+    <div className="col-md-8 mb-5 mb-5">
+     <a href='https://kanban-board-henna-alpha.vercel.app/'> <img src={RandomPassword} className='project-img' alt="" /></a>
+      <div className='d-flex  my-3 justify-content-between align-items-center flex-wrap '>
+        <h4 className=''>
+        Password Generator  
+        </h4>
+        <p className='m-0 p-0'>March 2025</p>
+        <p className='m-0 p-0'> Custom Hook / React / Secure </p>
+      </div>
+  
+    </div>
+  
+    <div className="col-md-8 mb-5 mb-5">
+     <a href=' https://noteflow-app.vercel.app/'> <img src={noteflow} className='project-img' alt="" /></a>
+      <div className='d-flex  my-3 justify-content-between align-items-center flex-wrap '>
+        <h4 className=''>
+        Note flow
+        </h4>
+        <p className='m-0 p-0'>Aug 2024</p>
+        <p className='m-0 p-0'>Notes Management /HTML CSS JS /  Simple UI </p>
+      </div>
+  
+    </div>
+    <div className="col-md-8 mb-5 mb-5">
      <a href='https://goldenmelano.store/'> <img src={goldenMelano} className='project-img' alt="" /></a>
       <div className='d-flex  my-3 justify-content-between align-items-center flex-wrap '>
         <h4 className=''>
@@ -107,17 +170,7 @@ function Projects() {
       </div>
   
     </div>
-    <div className="col-md-8 mb-5 mb-5">
-     <a href=' https://noteflow-app.vercel.app/'> <img src={noteflow} className='project-img' alt="" /></a>
-      <div className='d-flex  my-3 justify-content-between align-items-center flex-wrap '>
-        <h4 className=''>
-        Note flow
-        </h4>
-        <p className='m-0 p-0'>Aug 2024</p>
-        <p className='m-0 p-0'>Notes Management /HTML CSS JS /  Simple UI </p>
-      </div>
-  
-    </div>
+   
     <div className="col-md-8 mb-5 mb-5">
      <a href='https://microsoft-clone-ecru.vercel.app/'> <img src={Microsoft} className='project-img' alt="" /></a>
       <div className='d-flex  my-3 justify-content-between align-items-center flex-wrap '>
@@ -177,6 +230,17 @@ function Projects() {
   
     </div>
   
+    <div className="col-md-8 mb-5 mb-5">
+     <a href='https://motion-alert-system.vercel.app/'> <img src={ObjPrediction} className='project-img' alt="" /></a>
+      <div className='d-flex  my-3 justify-content-between align-items-center flex-wrap '>
+        <h4 className=''>
+          Motion Detector
+        </h4>
+        <p className='m-0 p-0'>April 2025</p>
+        <p className='m-0 p-0'>Real-time / AI-Powered / Next.js</p> 
+      </div>
+  
+    </div>
     
    
     
